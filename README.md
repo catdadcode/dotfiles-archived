@@ -1,6 +1,6 @@
 There are a ton of fancy dotfiles installers and configuration managers out there but I'm a fan of simplicity. Simply clone this repository and run the `install.sh` script. The script will symlink all the appropriate dotfiles into the appropriate locations on OS X.
 
-![](http://i.imgur.com/e4AFBMI.gif)
+![](http://i.imgur.com/QFOKjma.gif)
 
 ---
 
