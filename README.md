@@ -16,7 +16,7 @@ $ ./install.sh
 
 ### Included Configurations:
 
-- Vim, complete with [plugins](https://github.com/chevex/dotfiles/blob/master/.vim/bundle) and [.vimrc](https://github.com/chevex/dotfiles/blob/master/.vim/vimrc).
+- Vim, complete with [plugins](https://github.com/chevex/dotfiles/blob/master/.nvim/bundle) and [.nvimrc](https://github.com/chevex/dotfiles/blob/master/.nvim/nvimrc).
 - [.bash_profile](https://github.com/chevex/dotfiles/blob/master/.bash_profile) which sources `.bashrc` for cross-system interoperability.
 - [.bashrc](https://github.com/chevex/dotfiles/blob/master/.bashrc) containing a few aliases and various configurations.
 - [.gitconfig](https://github.com/chevex/dotfiles/blob/master/.gitconfig) with aliases.
