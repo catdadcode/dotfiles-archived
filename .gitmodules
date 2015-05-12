@@ -106,3 +106,6 @@
 [submodule ".vim/bundle/CoVim"]
 	path = .vim/bundle/CoVim
 	url = git@github.com:FredKSchott/CoVim.git
+[submodule ".vim/bundle/typescript-vim"]
+	path = .vim/bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
