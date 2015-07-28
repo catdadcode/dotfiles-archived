@@ -161,6 +161,14 @@ imap <C-c> <CR><Esc>O
 " Invoke pathogen to load plugins.
 execute pathogen#infect()
 
+"-=-=-= syntastic =-=-=-
+
+let g:syntastic_typescript_tsc_args = '--module commonjs --target ES5'
+
+"-=-=-= typescript-vim =-=-=-
+
+let g:typescript_compiler_options = '--module commonjs --target ES5'
+
 "-=-=-= localvimrc =-=-=-
 
 " Don't ask when sourcing .lvimrc files.
