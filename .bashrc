@@ -8,7 +8,11 @@ alias ll='ls -AlF'
 alias ssh-stage='ssh ec2-user@192.168.112.86'
 source ~/.shell_prompt.sh
 export NVM_DIR=~/.nvm
-source ~/.nvm/nvm.sh
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  source $(brew --prefix nvm)/nvm.sh 
+else
+  source ~/.nvm/nvm.sh
+fi
 
 # Sauce Labs Credentials
 export SAUCE_USERNAME=chev
