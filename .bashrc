@@ -1,3 +1,4 @@
+export TERM=xterm-256color
 function nvm {
   if [$1 = "install"]; then
     nvm install $2 --reinstall-packages-from=default
@@ -13,9 +14,5 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
   source ~/.nvm/nvm.sh
 fi
-
-# Sauce Labs Credentials
-export SAUCE_USERNAME=chev
-export SAUCE_ACCESS_KEY=b6469f49-7b10-4a69-b3ba-d9b707467081
 
 HISTCONTROL=ignoreboth
