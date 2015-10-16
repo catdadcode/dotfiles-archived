@@ -1,2 +1,3 @@
 .tmux/resurrect/*
 Session.vim
+*.shada
