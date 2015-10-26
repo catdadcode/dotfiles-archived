@@ -94,3 +94,6 @@
 [submodule ".vim/bundle/typescript-vim"]
 	path = .nvim/bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
+[submodule ".nvim/bundle/vim-jsx"]
+	path = .nvim/bundle/vim-jsx
+	url = git@github.com:mxw/vim-jsx.git
