@@ -97,3 +97,6 @@
 [submodule ".nvim/bundle/vim-jsx"]
 	path = .nvim/bundle/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
+[submodule ".tmux/plugins/tmux-prefix-highlight"]
+	path = .tmux/plugins/tmux-prefix-highlight
+	url = git@github.com:tmux-plugins/tmux-prefix-highlight.git
