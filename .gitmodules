@@ -100,3 +100,6 @@
 [submodule ".tmux/plugins/tmux-prefix-highlight"]
 	path = .tmux/plugins/tmux-prefix-highlight
 	url = git@github.com:tmux-plugins/tmux-prefix-highlight.git
+[submodule ".nvim/bundle/vim-gitgutter"]
+	path = .nvim/bundle/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
