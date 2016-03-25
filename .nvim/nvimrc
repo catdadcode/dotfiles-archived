@@ -163,7 +163,7 @@ execute pathogen#infect()
 
 "-=-=-= syntastic =-=-=-
 
-let g:syntastic_typescript_tsc_args = '--module commonjs --target ES6'
+let g:syntastic_typescript_tsc_fname = ''
 let g:syntastic_javascript_checkers = ['eslint']
 
 " Override eslint with local version where necessary.
