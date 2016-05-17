@@ -38,6 +38,7 @@ set matchtime=2
 
 " Show line numbers by default.
 set number
+set relativenumber
 
 " Set encoding.
 set encoding=utf-8
